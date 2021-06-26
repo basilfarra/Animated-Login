@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Animated Login.jnlp">
+  <information>
+    <title>Animated Login</title>
+    <vendor>Benny</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\fontawesomefx-8.1.jar" size="179086" download="eager" />
+    <jar href="lib\jfoenix-9.0.10.jar" size="2432549" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Animated Login" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.bennycoder.main.Launch"  name="Animated Login" />
+  <update check="always"/>
+</jnlp>
